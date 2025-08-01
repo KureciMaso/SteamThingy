@@ -44,6 +44,13 @@ input, select
     font-family: "Ubuntu";
     font-weight: bold;
 }
+#formSubmit:hover
+{
+background-color: rgba(128, 128, 128, 0.3);
+padding: 2px;
+border-style: hidden;
+cursor: pointer;
+}
 video
 {
     width: 400px;
