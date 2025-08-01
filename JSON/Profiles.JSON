@@ -1,0 +1,16 @@
+{
+    "profiles":[
+        {
+            "name":"Steam Winter Evening",
+            "price":5000,
+            "path":"../profiles/SteamWinterEvening.html"
+        },
+        {
+        
+            "name": "Steam Winter Morning",
+            "price": 5000,
+            "path":"../profiles/SteamWinterMorning.html"
+        }
+
+]
+}

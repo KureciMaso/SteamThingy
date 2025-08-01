@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/mainstyle.css">
+</head>
+
+<body>
+    <h1>Steam game profiles custom styling</h1>
+
+
+    <form action="">
+        <label for="GameProfiles">Select your game profile:</label>
+        <select name="GameProfiles" id="GameProfilesSelect" class="InputText">
+            
+        </select>
+            
+     <!--
+        <label for="PFPLink">Link for your profile picture:</label>
+        <input type="text" name="PFPLink" id="PFPLink" placeholder="Optional" class="InputText">
+        <label for="BGLink">Link for background:</label>
+        <input type="text" name="BGLink" id="BGLink" placeholder="Optional" class="InputText">
+        <label for="IsSolid">Is background a still image?</label>
+        <input type="checkbox" id="IsSolidCheckbox" name="IsSolid">
+-->
+        <label for="ProfileLink">Link for your steam profile:</label>
+        <input type="text" name="ProfileLink" id="ProfileLink" placeholder="required" class="InputText">
+        
+        <input type="button" value="SUBMIT" id="formSubmit">
+    </form>
+    <p>Price: <span id="price">5000</span> Steam points</p>
+
+    <video autoplay muted loop>
+    <source src="src/okgarmin.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+
+
+</body>
+
+</html>
+<!--<script src="scripts/GetProfiles.js"></script>-->
+<script src="scripts/Generate.js"></script>
+<script src="scripts/GetStyles.js"></script>
+<script src="scripts/GetPrice.js"></script>

@@ -1,0 +1,44 @@
+{
+    "profiles":[
+        {
+            "name":"Steam Winter Morning",
+            "price":5000,
+            "custom_customisation": false, 
+            "style": "body.GameProfileTheme {--gradient-right: rgba(157, 181, 243, 0.75);--gradient-left: rgba(173, 33, 84, 0.55);--gradient-background: rgba(96, 97, 148, 0.70);--gradient-background-right: rgba(157, 181, 243, 0.75);--gradient-background-left: rgba(173, 33, 84, 0.55);--color-showcase-header: rgba(255, 160, 192, 0.55);--gradient-showcase-header-left:  rgba(199, 56,83, 0.65);--btn-background:rgba(0, 0, 0, .2);--btn-background-hover:rgb(255, 255, 255, .1);--btn-outline:rgb(255, 255, 255, .1);}"
+        },
+        {
+        
+            "name": "Steam Winter Evening",
+            "price": 5000,
+            "custom_customisation": false, 
+            "style": "body.GameProfileTheme {--gradient-right: rgba(153, 124, 161, 0.85);--gradient-background: rgba(55, 103, 143, 0.7);--gradient-background-right: rgba(153, 124, 161, 0.85);--gradient-background-left: rgba(130, 40, 96, 0.5);--color-showcase-header: rgba(75, 149, 194, 0.85);--gradient-showcase-header-left: rgba(51, 64, 100, 1);--btn-background: rgba(0, 0, 0, 0.2);--btn-background-hover: rgba(255, 255, 255, 0.1);--btn-outline: rgba(255, 255, 255, 0.1);--gradient-left: rgba(130, 40, 96, 0.5);}"
+        },
+        {
+            "name": "Cat-O-Lantern",
+            "price": 5000,
+            "custom_customisation": false, 
+            "style": "body.GameProfileTheme {--gradient-right: rgba(255, 117, 34, .2);--gradient-left: rgba(255, 122, 0, .13);--gradient-background: rgba(0, 0, 0, .3);--gradient-background-right: rgba(255, 117, 34, .2);--gradient-background-left: rgba(255, 122, 0, .13);--color-showcase-header: rgba(186, 89, 0, .18);--gradient-showcase-header-left:  rgba(255, 120, 0, .5);--btn-background:rgba(0, 0, 0, .2);--btn-background-hover:rgb(255, 255, 255, .1);--btn-outline:rgb(255, 255, 255, .1);}"
+        },
+        {
+            "name": "Cities Skylines",
+            "price": 10000,
+            "custom_customisation": false, 
+            "style": "body.GameProfileTheme {--gradient-right: rgba(094, 172, 222, .75);--gradient-left: rgba(000, 076, 124, .75);--gradient-background: rgba(000, 076, 124, .75);--gradient-background-right: rgba(094, 172, 222, .75);--gradient-background-left: rgba(000, 076, 124, .75);--color-showcase-header: rgba(43, 45, 68, 0.93);--gradient-showcase-header-left:  rgba(115, 173, 184, 0.247);--btn-background:rgba(0, 0, 0, .2);--btn-background-hover:rgb(255, 255, 255, .1);--btn-outline:rgb(255, 255, 255, .1);}"
+        },
+        {
+            "name": "Steam 3000",
+            "price": 5000, 
+            "custom_customisation": true, 
+            "custom_body_name": "Steam3000Theme",
+            "style": "body.Steam3000Theme {--gradient-right: rgba(0, 0, 0, 0);--gradient-left: rgba(0, 0, 0, 0);--gradient-background: rgba(0, 0, 0, 0);--gradient-background-right: rgba(0, 0, 0, 0);--gradient-background-left: rgba(0, 0, 0, 0);--color-showcase-header: rgb(231 196 52);--gradient-showcase-header-left: rgb(239 0 255);--btn-background: rgba(0, 0, 0, 0);--btn-background-hover: rgb(46, 46, 46);--btn-outline: rgba(0, 0, 0, 0);}",
+            "custom_css": "steam3000.css"
+}
+
+	
+
+
+        
+
+
+]
+}
