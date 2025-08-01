@@ -1,6 +1,6 @@
 const PriceSpan = document.getElementById("price");
 
-fetch('../JSON/V2.JSON')
+fetch('https://raw.githubusercontent.com/KureciMaso/SteamThingy/refs/heads/main/JSON/V2.JSON')
     .then(response => response.json()) // Parse JSON
     .then(data => {
         let ProfileData = data.profiles;
